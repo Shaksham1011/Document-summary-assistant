@@ -24,7 +24,7 @@ ALLOWED_TYPES = {
     "image/jpg",
     "image/webp",
 }
-MODEL = os.getenv("GEMINI_MODEL", "gemini-3.7-flash")
+MODEL = os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite")
 
 app = FastAPI(
     title="Document Summary Assistant API",
