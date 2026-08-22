@@ -58,7 +58,7 @@ Open the Vite URL shown in the terminal.
 Deploy the backend as a Docker Web Service on Render. Set:
 
 - `GEMINI_API_KEY`
-- `GEMINI_MODEL=gemini-3.7-flash`
+- `GEMINI_MODEL=gemini-3.5-flash-lite`
 - `FRONTEND_URL=https://YOUR-FRONTEND.vercel.app`
 
 Build command is not needed for Docker. The Dockerfile installs Tesseract.
