@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: docubrief-api
+    runtime: docker
+    plan: free
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-3.7-flash
+      - key: FRONTEND_URL
+        sync: false
